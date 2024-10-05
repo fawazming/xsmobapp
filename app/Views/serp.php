@@ -6,19 +6,16 @@
     <title>XS Mobile App by Rayyan Technologies</title>
 </head>
 <body>
-    <center><font size="6" face="verdana" color="blue">
-    XS Mobile App by Rayyan Technologies
-    </font></center>
-
     <form action="serp" method="post">
         <p>Search In the Box Below</p>
-        <input type="text" placeholder="Search anything" name="que">
+        <input type="text" placeholder="Search anything">
         <input type="submit" value="Search">
     </form>
 
     <br><br><hr>
     <center><font size="3" face="verdana" color="red">
-        List of Apps Available
+        Search Result
     </font></center>
+    <p><?=$res?></p>
 </body>
 </html>

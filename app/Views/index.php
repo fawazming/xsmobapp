@@ -11,7 +11,7 @@
     </font></center>
 
     <form action="" method="post">
-        <p>Search</p>
+        <p>Search In the Box Below</p>
         <input type="search" placeholder="Search anything">
     </form>
 

@@ -17,6 +17,14 @@ class Home extends BaseController
         echo view('serp', ['res'=>$ser]);
     }
 
+    public function rqur()
+    {
+        
+        $sv = $this->request->getGet('sv');
+        return redirect->to('https://cdn.islamic.network/quran/images/'.$sv.'.png');
+        // echo view('serp', ['res'=>$ser]);
+    }
+
     private function llama3($prompt, $maxTokens = 100, $temperature = 0.5)
     {
         $client = service('curlrequest');

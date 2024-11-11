@@ -21,7 +21,7 @@ class Home extends BaseController
     {
         
         $sv = $this->request->getGet('sv');
-        return redirect->to('https://cdn.islamic.network/quran/images/'.$sv.'.png');
+        return redirect()->to('https://cdn.islamic.network/quran/images/'.$sv.'.png');
         // echo view('serp', ['res'=>$ser]);
     }
 

@@ -22,6 +22,12 @@
         <input type="submit" value="Read">
     </form>
 
+    <form action="tesbih" method="get">
+        <p>Tasbih</p>
+        <input type="number" placeholder="Tesbih Count" name="tc">
+        <input type="submit" value="Count">
+    </form>
+
     <br><br><hr>
     <center><font size="3" face="verdana" color="red">
         List of Apps Available

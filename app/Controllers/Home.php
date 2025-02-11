@@ -38,6 +38,17 @@ class Home extends BaseController
         }
     }
 
+    public function tesbih()
+    {
+        $tc = $this->request->getGet('tc');
+        $count = '';
+        for ($i=1; $i <= $tc; $i++) { 
+            $count = $count.' '.$i.'<br>';
+        }
+        
+        echo $count;
+    }
+
     private function llama3($prompt, $maxTokens = 100, $temperature = 0.5)
     {
         $client = service('curlrequest');

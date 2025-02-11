@@ -8,3 +8,4 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 $routes->post('/serp', 'Home::serp');
 $routes->get('/rqur', 'Home::rqur');
+$routes->get('/tesbih', 'Home::tesbih');
